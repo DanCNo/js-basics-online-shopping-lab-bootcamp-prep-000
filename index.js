@@ -49,6 +49,8 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  if(cart.find())
+  
   var index = cart.findIndex(x => x.itemName === item);
   //console.log(index);
   //console.log(cart[index]);
