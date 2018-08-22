@@ -55,22 +55,13 @@ function removeFromCart(item) {
   
   else {
     var index = cart.findIndex(x => x.itemName === item);
-  //console.log(index);
-  //console.log(cart[index]);
     cart.splice(index, 1);
     return cart;
   }
 
 }
 
-addToCart('apples');
-addToCart('oranges');
-addToCart('bananas');
-addToCart('melons');
-console.log(cart);
-removeFromCart('melons');
-console.log(cart);
-
 function placeOrder(cardNumber) {
   // write your code here
+  if()
 }
