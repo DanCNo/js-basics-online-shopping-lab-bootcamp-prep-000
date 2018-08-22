@@ -63,5 +63,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  if()
+  if(cardNumber > 0 && Number.isInteger(cardNumber) && ) {
+    
+  }
 }
